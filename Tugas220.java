@@ -14,8 +14,7 @@ public class Tugas220 {
 
         System.out.println("===== KAFE RIDO AAA=====");
         System.out.println("Menu tersedia:");
-        String[] menu = {"Nasi Goreng", "Mie Goreng", "Roti Bakar", "Kentang Goreng",
-                         "Teh Tarik", "Cappucino", "Chocolate Ice"};
+        String[] menu = {"Nasi Goreng", "Mie Goreng", "Roti Bakar", "Kentang Goreng", "Teh Tarik", "Cappucino", "Chocolate Ice"};
         int[] harga = {15000, 13000, 10000, 12000, 8000, 18000, 20000};
         for (int i = 0; i < menu.length; i++) {
             System.out.println((i + 1) + ". " + menu[i] + " - Rp " + harga[i]);
